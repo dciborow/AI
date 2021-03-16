@@ -56,7 +56,7 @@
           "throughput": 400
         }
       }
-    }
+    },
     {
       "name": "[parameters('containerName')]",
       "type": "Microsoft.DocumentDB/containers",
