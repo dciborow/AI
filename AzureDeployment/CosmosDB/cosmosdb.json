@@ -40,6 +40,7 @@
         ],
         "databaseAccountOfferType": "Standard",
         "keyVaultKeyUri": "[parameters('keyVaultKeyUri')]"
+      }
     },
     {
       "name": "[parameters('databaseName')]",
