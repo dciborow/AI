@@ -35,7 +35,7 @@
     },
     {
       "name": "[parameters('databaseName')]",
-      "type": "Microsoft.DocumentDB/databaseAccounts/sqlDatabases",
+      "type": "Microsoft.DocumentDB/sqlDatabases",
       "apiVersion": "2020-04-01",
       "dependsOn": [
         "[parameters('accountName')]"
@@ -51,7 +51,7 @@
     },
     {
       "name": "[parameters('containerName')]",
-      "type": "Microsoft.DocumentDB/databaseAccounts/sqlDatabases/containers",
+      "type": "Microsoft.DocumentDB/containers",
       "apiVersion": "2020-04-01",
       "dependsOn": [
         "[parameters('databaseName')]"
